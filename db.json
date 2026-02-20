@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ravi Kumar",
+            "username": "ravik",
+            "email": "ravi@gmail.com",
+            "phone": "9876543210",
+            "website": "ravikumar.com",
+            "address": {
+                "street": "MG Road",
+                "suite": "Apt 101",
+                "city": "Bengaluru",
+                "zipcode": "560001",
+                "geo": {
+                    "lat": "12.9716",
+                    "lng": "77.5946"
+                }
+            },
+            "company": {
+                "name": "ForgeTech",
+                "catchPhrase": "Building smarter systems",
+                "bs": "business intelligence"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ayesha Khan",
+            "username": "ayeshak",
+            "email": "ayesha@gmail.com",
+            "phone": "9123456780",
+            "website": "ayeshakhan.in",
+            "address": {
+                "street": "Link Road",
+                "suite": "Suite 12B",
+                "city": "Mumbai",
+                "zipcode": "400001",
+                "geo": {
+                    "lat": "19.0760",
+                    "lng": "72.8777"
+                }
+            },
+            "company": {
+                "name": "Skyline Pvt Ltd",
+                "catchPhrase": "Innovation at speed",
+                "bs": "digital transformation"
+            }
+        }
+    ]
+}
