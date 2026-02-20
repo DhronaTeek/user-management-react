@@ -1,24 +1,48 @@
-User Management App
+# User Management App
 
-A simple React application that performs CRUD operations (Create, Read, Update, Delete) on users using JSON Server as a mock backend.
+A simple React application that performs CRUD (Create, Read, Update, Delete) operations on users using JSON Server as a mock backend.
 
-Features
+## Tech Stack
 
-View all users
+- React
+- Axios
+- JSON Server
+- CSS
 
-Add new user
+## Features
 
-Edit existing user
+- View all users
+- Add new user
+- Edit user details
+- Delete user
+- Basic error handling
 
-Delete user
+## Setup Instructions
 
-Basic error handling
+1. Install dependencies
 
-Technologies Used
+npm install
 
-React
+2. Start JSON Server
 
-Axios
+json-server --watch db.json --port 8080
+
+3. Start React App
+
+npm start
+
+Frontend runs on:
+http://localhost:3000
+
+Backend API runs on:
+http://localhost:8080/api/users
+
+## Project Structure
+
+src/
+  components/
+  services/
+  utils/
 
 JSON Server
 
